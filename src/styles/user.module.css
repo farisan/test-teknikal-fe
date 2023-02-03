@@ -1,0 +1,238 @@
+.title_create {
+  margin: 50px 0 0 0;
+  padding: 25px;
+  border: 2px solid #1a1a1a;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color:#1a1a1a;
+  color: #fff;
+  width: 60%;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 21px;  
+}
+
+.form_data {
+  border: 2px solid #1a1a1a;
+  padding: 25px;
+  width: 60%;
+}
+
+.content_form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.form_input_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 7px;
+  width: 75%;
+}
+
+.form_input_data > input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 5px;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.show_password > input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 5px;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  width: 94%;
+}
+
+
+.create_user_btn {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin-right: 20px;
+  margin-top: 30px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ .create_user_btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ .create_user_btn:hover {
+  color: #e8e8e8;
+ }
+ 
+ .create_user_btn:hover::before {
+  width: 100%;
+ }
+
+.cancel_user_btn {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin-right: 20px;
+  margin-top: 30px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ .cancel_user_btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #BF181D;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ .cancel_user_btn:hover {
+  color: #e8e8e8;
+ }
+ 
+ .cancel_user_btn:hover::before {
+  width: 100%;
+ }
+
+
+
+/* content data */
+.border {
+  border: 1px solid #1a1a1a;
+  width: 100%;
+ }
+
+ .bar_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+ }
+
+.no {
+  padding-right: 20px;
+}
+
+.nama_lengkap {
+  padding-right: 150px;
+}
+
+.username {
+  padding-right: 200px;
+}
+
+.password {
+  padding-right: 150px;
+}
+
+.status {
+  padding-right: 150px;
+}
+
+
+
+.container_search {
+  border: none;
+  outline: none;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  width: 21%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon_style {
+  font-size: 14px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+  color: white;
+}
+
+.input_search {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px; 
+}
+
+.noted {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px; 
+  padding-left: 20px;
+}

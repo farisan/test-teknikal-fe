@@ -1,0 +1,79 @@
+.data_loop {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 5px 20px 5px ;
+ }
+
+
+.data_no {
+  width: 30px;
+  padding: 5px;
+}
+
+.data_nama_lengkap {
+  width: 270px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.data_username {
+  width: 270px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.data_password {
+  width: 220px;
+  padding: 5px ;
+  overflow: hidden;
+  word-wrap: break-word;
+  
+}
+
+.data_status {
+  width: 190px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.btn_delete {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ .btn_delete::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #BF181D;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ .btn_delete:hover {
+  color: #e8e8e8;
+ }
+ 
+ .btn_delete:hover::before {
+  width: 100%;
+ }
